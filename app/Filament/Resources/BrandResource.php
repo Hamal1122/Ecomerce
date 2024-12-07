@@ -28,7 +28,7 @@ class BrandResource extends Resource
 
     protected static ?string $recordTitleAttribute = 'name'; //global search
 
-    protected static ?int $navigationSort = 5; //urutan list navigasi navbar
+    protected static ?int $navigationSort = 5   ; //urutan list navigasi navbar
 
     public static function getPluralLabel(): string
     {
